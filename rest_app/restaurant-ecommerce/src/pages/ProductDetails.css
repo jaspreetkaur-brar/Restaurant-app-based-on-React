@@ -1,0 +1,64 @@
+/* ProductDetails.css */
+
+/* Add background image and keep footer at the bottom */
+.product-detail-container {
+  display: flex;
+  flex-direction: column; /* Arrange children vertically */
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  min-height: 100vh; /* Set minimum height to viewport height */
+  background-image: url('https://t4.ftcdn.net/jpg/01/98/50/63/360_F_198506301_zS7IDI4YU7kW0zFVagjTwl8AVI7lZvjP.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.product-image {
+  width: 415px; /* Set width to 500 pixels */
+  height: 400px; /* Set height to 500 pixels */
+  object-fit: cover; /* Maintain aspect ratio */
+  border-radius: 5px;
+}
+
+.product-info {
+  color: white;
+  max-width: 500px;
+}
+
+.product-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.product-description {
+  margin-bottom: 20px;
+}
+
+.product-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.add-to-cart-btn {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.add-to-cart-btn:hover {
+  background-color: orange;
+}
+
+/* Keep footer at the bottom */
+.footer {
+  margin-top: auto; /* Push the footer to the bottom */
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}

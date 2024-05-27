@@ -1,0 +1,43 @@
+/* CartContext.css */
+
+.CartContext-container {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.CartContext-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.CartContext-item {
+  margin-bottom: 10px;
+}
+
+.CartContext-label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.CartContext-value {
+  font-size: 16px;
+  color: #666;
+}
+
+.CartContext-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.CartContext-button:hover {
+  background-color: #0056b3;
+}

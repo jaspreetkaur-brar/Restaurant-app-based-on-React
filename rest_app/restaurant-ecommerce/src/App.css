@@ -1,0 +1,74 @@
+/* App.css */
+
+/* General Styles */
+body {
+  font-family: 'Playfair Display', sans-serif;;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align items vertically */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-family: 'blackadder iac', sans-serif;
+  padding: 10px;
+}
+
+.header-links {
+  display: flex;
+  align-items: center;
+}
+
+.header-link {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: orange;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.header-link:hover {
+  background-color: darkorange; /* Adjust the hover color */
+}
+
+.header-link:last-child {
+  margin-right: 20px;
+}
+
+/* Align header items in one line on small screens */
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header-links {
+    margin-top: 20px;
+  }
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
